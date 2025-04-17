@@ -1,5 +1,6 @@
 public class Car extends Vehicle
 {
+    //zad1
     private int numberOfSeats;
 
     public int getNumberOfSeats()
@@ -7,13 +8,17 @@ public class Car extends Vehicle
         return numberOfSeats;
     }
 
+    //zad2
     @Override
-    public void start() {
-        super.start();
+    public void start()
+    {
+        System.out.println("Car starts");
     }
 
     @Override
-    public void stop() {
-        super.stop();
+    public void stop()
+    {
+        System.out.println("Car stops");
     }
+
 }
